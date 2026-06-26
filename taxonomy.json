@@ -1,3 +1,475 @@
 {
-  
+  "name": "Identity Taxonomy",
+  "description": "The root of the personal identity map.",
+  "color": "#808080",
+  "children": [
+    {
+      "name": "Sexuality & Romantic Orientation",
+      "description": "The root category for sexual and romantic orientations.",
+      "color": "#808080",
+      "children": [
+        {
+          "name": "A-Spectrum",
+          "description": "An umbrella term for those who experience little to no sexual or romantic attraction, or experience it under specific circumstances.",
+          "color": "#000000",
+          "children": [
+            {
+              "name": "Asexual (Ace)",
+              "description": "Little to no sexual attraction to anyone.",
+              "color": "#000000",
+              "children": []
+            },
+            {
+              "name": "Aromantic (Aro)",
+              "description": "Little to no romantic attraction to anyone.",
+              "color": "#3DA542",
+              "children": []
+            },
+            {
+              "name": "Aroace",
+              "description": "Experiencing little to no romantic and sexual attraction; identifying as both aromantic and asexual.",
+              "color": "#E28C00",
+              "children": []
+            },
+            {
+              "name": "Demisexual / Demiromantic",
+              "description": "Feeling attraction only after forming a deep emotional connection.",
+              "color": "#808080",
+              "children": []
+            },
+            {
+              "name": "Graysexual / Grayromantic",
+              "description": "Falling in the 'gray area' between asexual/aromantic and allosexual/alloromantic; experiencing attraction rarely or weakly.",
+              "color": "#A3A3A3",
+              "children": []
+            },
+            {
+              "name": "Lithosexual / Lithromantic",
+              "description": "Feeling attraction to others but not wanting those feelings reciprocated.",
+              "color": "#F98126",
+              "children": []
+            },
+            {
+              "name": "Cupiosexual / Cupioromantic",
+              "description": "Desiring a sexual or romantic relationship despite not experiencing the corresponding attraction.",
+              "color": "#EB7A9E",
+              "children": []
+            },
+            {
+              "name": "Reciprosexual",
+              "description": "Experiencing attraction only after realizing someone is already attracted to them.",
+              "color": "#FF9999",
+              "children": []
+            },
+            {
+              "name": "Apothisexual",
+              "description": "Being sex-repulsed while identifying on the asexual spectrum.",
+              "color": "#6E3C67",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Multisexual (M-Spec)",
+          "description": "An umbrella term for anyone attracted to multiple genders.",
+          "color": "#D60270",
+          "children": [
+            {
+              "name": "Bisexual (Bi)",
+              "description": "Attraction to two or more genders.",
+              "color": "#D60270",
+              "children": []
+            },
+            {
+              "name": "Pansexual (Pan)",
+              "description": "Attraction to people regardless of their gender; often called 'gender-blind' attraction.",
+              "color": "#FF218C",
+              "children": []
+            },
+            {
+              "name": "Omnisexual",
+              "description": "Attraction to people of all genders, where gender is actively recognized as part of the attraction.",
+              "color": "#FE9ECE",
+              "children": []
+            },
+            {
+              "name": "Polysexual",
+              "description": "Attraction to multiple, but not necessarily all, genders.",
+              "color": "#07D569",
+              "children": []
+            },
+            {
+              "name": "Spectrasexual",
+              "description": "Attraction to multiple, but not all, sexes, genders, and gender identities.",
+              "color": "#11B560",
+              "children": []
+            },
+            {
+              "name": "Abrosexual",
+              "description": "Having a sexuality that is fluid and changes frequently over time.",
+              "color": "#46D294",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Monosexual",
+          "description": "An umbrella term for anyone attracted to only one gender.",
+          "color": "#004DFF",
+          "children": [
+            {
+              "name": "Gay",
+              "description": "Attraction to the same or similar gender; traditionally used by men, but serves as a broad umbrella.",
+              "color": "#078D70",
+              "children": []
+            },
+            {
+              "name": "Lesbian",
+              "description": "Women, non-binary, or gender-nonconforming people attracted to the same or similar genders.",
+              "color": "#D52D00",
+              "children": []
+            },
+            {
+              "name": "Androsexual",
+              "description": "Attraction to masculinity, male anatomy, or people who identify as men.",
+              "color": "#22A1BC",
+              "children": []
+            },
+            {
+              "name": "Gynosexual",
+              "description": "Attraction to femininity, female anatomy, or people who identify as women.",
+              "color": "#F2A3BD",
+              "children": []
+            },
+            {
+              "name": "Ceterosexual",
+              "description": "Attraction exclusively to non-binary, genderqueer, or gender-nonconforming people.",
+              "color": "#BFF470",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Other Orientations",
+          "description": "Other specific expressions of sexual or romantic orientation.",
+          "color": "#EFEFEF",
+          "children": [
+            {
+              "name": "Allosexual / Alloromantic",
+              "description": "Someone who experiences sexual or romantic attraction (the opposite of asexual/aromantic).",
+              "color": "#000000",
+              "children": []
+            },
+            {
+              "name": "Fraysexual",
+              "description": "Attraction that is strong at first but fades as an emotional bond forms (the opposite of demisexual).",
+              "color": "#3838CE",
+              "children": []
+            },
+            {
+              "name": "Sapiosexual",
+              "description": "Attraction based primarily on intelligence rather than gender or physical appearance.",
+              "color": "#006A4E",
+              "children": []
+            },
+            {
+              "name": "Autosexual / Autoromantic",
+              "description": "Experiencing sexual or romantic attraction primarily or exclusively toward oneself.",
+              "color": "#93C0E5",
+              "children": []
+            },
+            {
+              "name": "Pomosexual",
+              "description": "Rejecting sexual orientation labels entirely, or feeling that existing labels do not fit.",
+              "color": "#EFEFEF",
+              "children": []
+            },
+            {
+              "name": "Queer",
+              "description": "A reclaimed, broad umbrella term for anyone outside societal norms of sexuality and gender.",
+              "color": "#750787",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gender Identity",
+      "description": "The root category for internal senses of gender.",
+      "color": "#808080",
+      "children": [
+        {
+          "name": "Cisgender (Cis)",
+          "description": "Identifying with the gender assigned at birth.",
+          "color": "#808080",
+          "children": []
+        },
+        {
+          "name": "Transgender Spectrum",
+          "description": "An umbrella term for anyone whose gender identity differs from the sex assigned at birth.",
+          "color": "#5BCEFA",
+          "children": [
+            {
+              "name": "Transgender (Trans)",
+              "description": "Identifying primarily with a gender different from the one assigned at birth.",
+              "color": "#5BCEFA",
+              "children": []
+            },
+            {
+              "name": "Gender Non-Conforming (GNC)",
+              "description": "Behaving or expressing gender in ways that do not align with traditional societal expectations.",
+              "color": "#FFFFFF",
+              "children": []
+            },
+            {
+              "name": "Non-binary Spectrum",
+              "description": "An umbrella term for any gender identity that sits outside the strict male/female binary.",
+              "color": "#FCF434",
+              "children": [
+                {
+                  "name": "Non-binary (Enby)",
+                  "description": "Identifying outside the strict male/female binary.",
+                  "color": "#FCF434",
+                  "children": []
+                },
+                {
+                  "name": "Agender",
+                  "description": "Having no gender, identifying as genderless, or a lack of gender identity.",
+                  "color": "#B9F480",
+                  "children": []
+                },
+                {
+                  "name": "Genderqueer",
+                  "description": "Rejecting traditional gender binaries and embracing fluid or non-traditional gender identities.",
+                  "color": "#B57EDC",
+                  "children": []
+                },
+                {
+                  "name": "Genderfluid",
+                  "description": "A gender identity that changes, shifts, or fluctuates over time.",
+                  "color": "#FF75A2",
+                  "children": []
+                },
+                {
+                  "name": "Genderflux",
+                  "description": "A gender identity that varies in intensity over time.",
+                  "color": "#FF91A4",
+                  "children": []
+                },
+                {
+                  "name": "Demigender",
+                  "description": "Feeling a partial, but not full, connection to a specific gender (e.g., Demiboy/Demigirl).",
+                  "color": "#808080",
+                  "children": []
+                },
+                {
+                  "name": "Demiflux",
+                  "description": "Having a static part of one's gender and another part that fluctuates in intensity.",
+                  "color": "#FFF0B3",
+                  "children": []
+                },
+                {
+                  "name": "Cassgender",
+                  "description": "Feeling that one's gender is unimportant or feeling indifferent to the concept of gender.",
+                  "color": "#C4C4C4",
+                  "children": []
+                },
+                {
+                  "name": "Bigender",
+                  "description": "Experiencing two distinct gender identities, either at the same time or alternating.",
+                  "color": "#EDA5CD",
+                  "children": []
+                },
+                {
+                  "name": "Trigender",
+                  "description": "Experiencing three distinct gender identities.",
+                  "color": "#FF99CC",
+                  "children": []
+                },
+                {
+                  "name": "Multigender / Pangender",
+                  "description": "Identifying with multiple, all, or countless genders simultaneously or over time.",
+                  "color": "#FFF387",
+                  "children": []
+                },
+                {
+                  "name": "Neutrois",
+                  "description": "A neutral or null gender identity.",
+                  "color": "#222222",
+                  "children": []
+                },
+                {
+                  "name": "Aporagender",
+                  "description": "A gender identity completely separate from binary genders, but still defined.",
+                  "color": "#FCCC4A",
+                  "children": []
+                },
+                {
+                  "name": "Maverique",
+                  "description": "A distinct, positive identity that is entirely independent of male, female, or neutrality.",
+                  "color": "#F5A800",
+                  "children": []
+                },
+                {
+                  "name": "Androgynous",
+                  "description": "Identifying as a mix of both masculine and feminine characteristics.",
+                  "color": "#999999",
+                  "children": []
+                },
+                {
+                  "name": "Novigender",
+                  "description": "A gender identity that is too complex to be described by existing terminology.",
+                  "color": "#808080",
+                  "children": []
+                },
+                {
+                  "name": "Aliagender",
+                  "description": "A gender identity that is distinct and separate from 'man' or 'woman'.",
+                  "color": "#FFFFFF",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Xenogender Spectrum",
+              "description": "Genders described using concepts outside typical human understandings of gender, such as nature, space, or symbols.",
+              "color": "#CE94D6",
+              "children": [
+                {
+                  "name": "Xenogender",
+                  "description": "A gender categorized using non-traditional, metaphorical, or symbolic associations.",
+                  "color": "#CE94D6",
+                  "children": []
+                },
+                {
+                  "name": "Astralgender",
+                  "description": "A gender that feels connected to space, stars, and the cosmos.",
+                  "color": "#000080",
+                  "children": []
+                },
+                {
+                  "name": "Catgender",
+                  "description": "A xenogender strongly connected to cats or felines, either aesthetically or conceptually.",
+                  "color": "#FFB2D0",
+                  "children": []
+                },
+                {
+                  "name": "Aesthetigender",
+                  "description": "A gender experience derived from, or acting as the embodiment of, a specific aesthetic.",
+                  "color": "#FF99CC",
+                  "children": []
+                },
+                {
+                  "name": "Gendervoid",
+                  "description": "Identifying as having a void or empty space where a gender would be.",
+                  "color": "#000000",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Culture-Specific & Historic Labels",
+      "description": "Labels tied to specific cultural, racial, or historical contexts.",
+      "color": "#808080",
+      "children": [
+        {
+          "name": "Two-Spirit",
+          "description": "A modern umbrella term used by some Indigenous North Americans to describe a traditional third-gender or fluid role in their cultures.",
+          "color": "#FFB300",
+          "children": []
+        },
+        {
+          "name": "Muxe",
+          "description": "A recognized third gender in Zapotec cultures of Oaxaca, Mexico.",
+          "color": "#808080",
+          "children": []
+        },
+        {
+          "name": "Hijra",
+          "description": "A legally recognized third gender in South Asian cultures (India, Pakistan, Bangladesh).",
+          "color": "#808080",
+          "children": []
+        },
+        {
+          "name": "Fa'afafine",
+          "description": "A recognized third gender in Samoan culture, translating to 'in the manner of a woman.'",
+          "color": "#808080",
+          "children": []
+        },
+        {
+          "name": "Mahu",
+          "description": "In Kanaka Maoli (Hawaiian) and Maohi (Tahitian) cultures, people of third gender with traditional spiritual and social roles.",
+          "color": "#808080",
+          "children": []
+        },
+        {
+          "name": "Kathoey",
+          "description": "A trans woman or effeminate gay man in Thailand, historically recognized as a distinct demographic.",
+          "color": "#808080",
+          "children": []
+        },
+        {
+          "name": "Stud / Femme",
+          "description": "Identity labels historically used within Black and Latinx lesbian communities to describe specific presentations.",
+          "color": "#808080",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Relationship Structures",
+      "description": "Terms describing variations in how individuals structure their relationships.",
+      "color": "#808080",
+      "children": [
+        {
+          "name": "Polyamorous",
+          "description": "Engaging in or desiring multiple romantic relationships simultaneously with the consent of all involved.",
+          "color": "#0000FF",
+          "children": []
+        },
+        {
+          "name": "Monogamous",
+          "description": "Engaging in romantic and sexual relationships with only one partner at a time.",
+          "color": "#808080",
+          "children": []
+        },
+        {
+          "name": "Ambiamorous",
+          "description": "Being equally comfortable in either a polyamorous or monogamous relationship structure.",
+          "color": "#808080",
+          "children": []
+        },
+        {
+          "name": "Relationship Anarchy",
+          "description": "The application of anarchist principles to relationships, prioritizing autonomy and avoiding rigid hierarchies or traditional relationship milestones.",
+          "color": "#FF0000",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Intersex & Altersex Experiences",
+      "description": "Experiences related to biological sex characteristics and desired anatomy.",
+      "color": "#FFD800",
+      "children": [
+        {
+          "name": "Intersex",
+          "description": "An umbrella term for people born with biological sex characteristics that do not fit typical medical definitions of male or female.",
+          "color": "#FFD800",
+          "children": []
+        },
+        {
+          "name": "Altersex",
+          "description": "A catch-all term for anyone whose biological sex characteristics are outside the typical male/female binary, often through conscious modification.",
+          "color": "#808080",
+          "children": []
+        }
+      ]
+    }
+  ]
 }
