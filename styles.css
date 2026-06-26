@@ -1,1 +1,25 @@
+body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
 
+#app { display: flex; height: 100vh; }
+
+#sidebar { 
+    width: 300px; 
+    background: #f4f4f4; 
+    padding: 20px; 
+    overflow-y: auto; 
+    border-right: 1px solid #ccc; 
+}
+
+#tree-container { flex-grow: 1; overflow: hidden; background: #fff; }
+
+#search { width: 100%; padding: 8px; margin-bottom: 20px; box-sizing: border-box; }
+
+#tree-canvas { width: 100%; height: 100%; }
+
+/* Styling für die Baum-Knoten */
+.node circle { fill: #fff; stroke: steelblue; stroke-width: 3px; }
+.node text { font: 12px sans-serif; }
+.link { fill: none; stroke: #ccc; stroke-width: 2px; }
+
+#controls { margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+button { width: 100%; padding: 10px; margin-top: 10px; cursor: pointer; }
