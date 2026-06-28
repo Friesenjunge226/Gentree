@@ -169,27 +169,24 @@ function adjustColorBrightness(hex, intensityPercent) {
 function injectIntoActiveTree(path, color, targetName) {
     let currentLevel = activeTree.children;
     
-    for (let i = 0; i < path.length; i++) {
+    // Navigiere durch die Kategorien (überspringe Root [0] und das Label selbst [letztes Element])
+    for (let i = 1; i < path.length - 1; i++) {
         const pathNodeName = path[i];
-        let existingNode = currentLevel.find(n => n.name === pathNodeName);
+        let existingCategory = currentLevel.find(n => n.name === pathNodeName);
         
-        if (!existingNode) {
-            existingNode = { 
-                name: pathNodeName, 
-                color: pathNodeName === targetName ? color : "#666", // Parent-Nodes bleiben grau
-                children: [] 
-            };
-            currentLevel.push(existingNode);
+        if (existingCategory) {
+            if (!existingCategory.children) existingCategory.children = [];
+            currentLevel = existingCategory.children;
         }
-        
-        // Wenn das unser gesuchtes Leaf ist, Farbe updaten (falls er es mehrfach hinzufügt)
-        if (pathNodeName === targetName) {
-            existingNode.color = color;
-        }
-        
-        currentLevel = existingNode.children;
     }
-}
+    
+    // Jetzt sind wir im richtigen Ordner. Label hinzufügen oder aktualisieren.
+    let leafNode = currentLevel.find(n => n.name === targetName);
+    if (!leafNode) {
+        currentLevel.push({ name: targetName, color: color });
+    } else {
+        leafNode.color = color; // Falls der User die Farbe überschreibt
+    }
 
 // --- 5. D3.js Setup & Rendering ---
 const margin = {top: 20, right: 120, bottom: 20, left: 120};
